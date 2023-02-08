@@ -4,7 +4,6 @@
 - [Overview](#overview)
   - [Description](#description)
   - [Screenshot](#screenshot)
-  - [How To](#how-to)
   - [Links](#links) 
   - [Built with](#built-with)
 
@@ -14,11 +13,10 @@
 ​
 ### Description
 ​
-This week's challenge was to build a a Team Profile Generator by using a command line application. The goal is to create a command line application using node.js inquirer to get the team member information and  creates a Team Profile html webpage.
-​
+This week's challenge was to build create an application called Note Taker that can be used to write and save notes. The main focus was to create the back end and connect/ deploy the entire app to heroku.
 ### Screenshot
 ​
-![](./assets/Screenshot%202023-01-24%20at%2010.07.18%20PM.png)
+![](./asset/Screenshot%202023-02-07%20at%209.27.22%20PM.png)
 
 ​
 ### Links
