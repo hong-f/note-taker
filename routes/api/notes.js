@@ -1,14 +1,14 @@
 const notes = require('express').Router();
 const { readFromFile, readAndAppend, writeToFile } = require('../../helpers/fsUtils');
 const fs = require('fs');
-// const db = require('../../db/db.json');
+
 const uniqid = require('uniqid');
 
 
 
-// creates a route for a get request 
+
 notes.get('/', (req, res) => {
-    // readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
+   
     fs.readFile('./db/db.json', (err,data) => {
         if (err) throw err;
         let db = JSON.parse(data);
@@ -16,7 +16,7 @@ notes.get('/', (req, res) => {
     })
 });
 
-// creates route for a post request
+
 notes.post('/', (req, res) => {
 
     console.log(req.body);
